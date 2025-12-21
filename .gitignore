@@ -1,0 +1,20 @@
+# Model files
+email_filter_model/
+email_filter_distilbert_model/
+
+# Env files
+email-filter-env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Data files
+data/**/*.txt
+data/**/*test*
+
+# Mailbox files
+*.mbox
+
+# Prompt files
+prompts/prompt.txt

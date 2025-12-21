@@ -1,0 +1,20 @@
+You are a spam email detector.
+
+Classify this email into ONE category:
+
+1. DELETE - Unsolicited promotional emails, phishing attempts, scams, fake prize notifications, suspicious links, fraudulent offers, urgency tactics ("act now!"), requests for personal information, or any malicious/unwanted emails
+
+2. NORMAL - Real emails from known contacts, legitimate business correspondence, transactional emails, newsletters you've subscribed to, or any non-spam communication
+
+Email to classify:
+---
+{email_text}
+---
+[END OF EMAIL]
+
+If the email is empty or contains no meaningful content, classify as NORMAL.
+
+Respond in this EXACT format:
+CATEGORY: [DELETE/NORMAL]
+CONFIDENCE: [HIGH/MEDIUM/LOW]
+REASON: [Brief explanation in one sentence]
